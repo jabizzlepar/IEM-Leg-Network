@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Ofgem_logo.svg/115px-Ofgem_logo.svg.png?20210922195844",
+    "link": "",
+    "text": "Jasper"
+  },
+  "text": {
+    "more": "This is a test knowledge graph of legislation xyaysys",
+    "intro": "This is a test knowledge graph",
+    "title": "Leg/Reg Alignment"
+  },
+  "legend": {
+    "edgeLabel": "Relationship",
+    "colorLabel": "Category",
+    "nodeLabel": "Topic/Concept"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
